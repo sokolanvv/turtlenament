@@ -71,7 +71,7 @@ p "Don't forget the all new IP, don't forget to source the bash too!" file4
 p "When in rviz change fixed frame to imu_link" file4
 
 p "Goto: https://github.com/voltbro/ws-sro/tree/main/HEX" file4
-wget https://raw.githubusercontent.com/voltbro/ws-sro/main/HEX/TB-RGBline.ino.mega.hex
+wget -q https://raw.githubusercontent.com/voltbro/ws-sro/main/HEX/TB-RGBline.ino.mega.hex
 p "Uh-oh it's already downloaded tee-hee \( > O<)/" file4
 p "Don't forget to PLUG IN the cable for MEGA!" file4
 p "Run the: avrdude -v -v -p atmega2560 -c wiring -P /dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0 -b 115200 -D -U flash:w:TB-RGBline.ino.mega.hex:i" file4 1
