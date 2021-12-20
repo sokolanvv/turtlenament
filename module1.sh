@@ -16,6 +16,10 @@ p () {
   echo $1 >> $2
 }
 
+echo -n > file1
+echo -n > file2
+echo -n > file3
+
 p "" 4
 p "Версия дистрибутива ROS" file1
 rosversion -d >> file1
