@@ -40,6 +40,6 @@ rostopic list >> file2
 p "Список сервисов на роботе" file2
 rosservice list >> file2
 
-p "Подключенные камеры"
+p "Подключенные камеры" file3
 ls -la /dev/video* >> file3
 
