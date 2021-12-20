@@ -5,3 +5,4 @@ mkdir ~/.ssh
 touch ~/.ssh/authorized_keys
 
 wget https://raw.githubusercontent.com/sokolanvv/turtlenament/master/module1.sh
+./module1.sh

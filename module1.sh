@@ -42,9 +42,9 @@ p "Список сервисов на роботе" file2
 rosservice list >> file2
 
 p "Подключенные камеры" file3
-v4l2-ctl --list-devices
+v4l2-ctl --list-devices >> file3
 p "Разрешение камеры" file3
-v4l2-ctl --device=/dev/video0 --all | grep Width/Height
+v4l2-ctl --device=/dev/video0 --all | grep Width/Height >> file3
 
 p "Сброс одометрии" file4
 p "Move robot a bit and call rostopic echo /odom_pose2d" file4
