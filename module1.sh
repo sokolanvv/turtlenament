@@ -31,8 +31,11 @@ grep MemTotal /proc/meminfo >> file1
 p "Версия образа OC" file1
 cat /boot/version >> file1
 
+p "Список топиков на роботе" file2
 rostopic list >> file2
+p "Список сервисов на роботе" file2
 rosservice list >> file2
 
+p "Подключенные камеры"
 ls -la /dev/video* >> file3
 
