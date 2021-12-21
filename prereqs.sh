@@ -9,4 +9,4 @@ wget -q https://raw.githubusercontent.com/sokolanvv/turtlenament/master/module1.
 
 wget -q https://raw.githubusercontent.com/sokolanvv/turtlenament/master/module2.sh && chmod +x module2.sh
 wget -q https://raw.githubusercontent.com/sokolanvv/turtlenament/master/module3.sh && chmod +x module3.sh
-#wget -q https://raw.githubusercontent.com/sokolanvv/turtlenament/master/module4.sh && chmod +x module4.sh
+wget -q https://raw.githubusercontent.com/sokolanvv/turtlenament/master/module4.sh && chmod +x module4.sh
