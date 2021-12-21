@@ -24,4 +24,6 @@ p "" module2.file1
 p "Drive around using navigation pointers or web-interface" module2.file1
 p "" module2.file1
 
-p "Run: rosrun map_server map_saver -f <map_name>" module2.file1
+p "Run, while running slamigation and rviz: rosrun map_server map_saver -f <map_name>" module2.file1
+p "SCP the files to host computer and edit the file a bit" module2.file1
+p "SCP the files back to turtle" module2.file1
